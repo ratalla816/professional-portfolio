@@ -136,25 +136,6 @@
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
-  .hero-form {
-    border: 3px solid var(--secondary-color);
-    background-color: rgba(168, 186, 189, 0.8);
-    padding: 20px;
-    color: var(--secondary-color);
-    width: 40%;
-    margin: 3.5%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-  }
-    
-  .hero-form h3 {
-    font-size: 24px;
-    margin: 0;
-  }
-  .hero-form p {
-    margin: 5px 0 15px 0;
-  }
-  
   .form-input {
     background-color: rgba(255,255,255, 0.75);
     border: 1px solid var(--secondary-color);
@@ -172,15 +153,10 @@
     outline: none;
   }
   
-  .hero-form label {
-    margin: 0 5px;
-  }
-
   .moi {
   flex: 1 12%;  
   padding: 5px;  
   }
-  
     /* HERO STYLES END */
   
   /* SECTION TITLE STYLES START */
