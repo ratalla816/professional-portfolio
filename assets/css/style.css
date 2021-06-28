@@ -192,7 +192,7 @@
   /* WHAT YOU DO STYLES END */
   
    /* MEET THE TRAINERS START */
-   .trainers {
+   .pages {
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -200,33 +200,33 @@
     justify-content: space-around;
   }
   
-  .trainer {
+  .page {
     margin: 20px;
     flex: 1;
     background: var(--secondary-color);
     color: var(--primary-color);
   }
   
-  .trainer img {
+  .page img {
     width: 100%;
   }
   
-  .trainer-bio {
+  .page-disc {
     padding: 25px;
     line-height: 1.3;
   }
   
-  .trainer-bio h3 {
+  .page-disc h3 {
     font-size: 28px;
   }
   
-  .trainer-bio h4 {
+  .page-disc h4 {
     font-weight: lighter;
     font-size: 22px;
     margin-bottom: 15px;
   }
   
-  .trainer-bio p {
+  .page-disc p {
     font-size: 17px;
   }
   /* TRAINER STYLES END */
