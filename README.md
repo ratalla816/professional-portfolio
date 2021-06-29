@@ -22,9 +22,14 @@ https://ratalla816.github.io/professional-portfolio/
 
 #### Deployed Application Screenshot
 
-
-
+assets\images\PPpic.JPG 
 
 ##### Acknowledgements
 
-background art: "Burning Blue" by Jr Korpa, courtesy of unsplash.com https://unsplash.com/photos/YXQew2KZjzY
+* background art: "Burning Blue" by Jr Korpa, courtesy of unsplash.com https://unsplash.com/photos/YXQew2KZjzY
+
+* RUN BUDDY - KU Coding Bootcamp, Module 2 Activity
+ © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+* SEO-Refactor - KU Coding Bootcamp, Module 1 Challenge Assignment
+ © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand Confidential and Proprietary. All Rights Reserved.
