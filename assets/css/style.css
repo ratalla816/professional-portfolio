@@ -193,7 +193,9 @@
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: row;
+    align-items: stretch;
   }
   
   .page {
@@ -203,6 +205,14 @@
     color: var(--primary-color);
   }
   
+  .flex-grow {
+    flex-grow: 1.5;
+  }
+
+  .flex-shrink {
+    align-content: center;
+  }
+
   .page img {
     width: 100%;
   }
