@@ -20,11 +20,11 @@ Use HTML and CSS to develop a professional portfolio that satisfies a typical hi
 
 https://ratalla816.github.io/professional-portfolio/
 
-#### Deployed Application Screenshot
+### Deployed Application Screenshot
 
 https://github.com/ratalla816/professional-portfolio/blob/main/assets/images/PPpic.JPG 
 
-##### Acknowledgements
+#### Acknowledgements
 
 * background art: "Burning Blue" by Jr Korpa, courtesy of unsplash.com https://unsplash.com/photos/YXQew2KZjzY
 
