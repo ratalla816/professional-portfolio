@@ -127,13 +127,14 @@
     color: #a8babd;
     font-size: 24px;
     line-height: 1.2;
+    text-shadow: 0 0 5px rgba(0, 0, 0);
   }
   
   .hero-excel h2 {
     font-style: italic;
     font-size: 55px;
     color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 5px rgba(0, 0, 0);
   }
   /* hero styles end */
 
@@ -164,6 +165,7 @@
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
+    margin-top: 15px;
     width: 50%;
   }
   
