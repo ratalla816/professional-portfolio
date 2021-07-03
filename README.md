@@ -22,7 +22,7 @@ https://ratalla816.github.io/professional-portfolio/
 
 ### Deployed Application Screenshot
 
-https://github.com/ratalla816/professional-portfolio/blob/main/assets/images/PPpic.JPG 
+![application screenshot](./assets/images/PPpic.JPG)
 
 #### Acknowledgements
 
