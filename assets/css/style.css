@@ -196,7 +196,7 @@
   }
   
   .flex-grow {
-    flex-grow: 1.5;
+    flex-grow: .5;
   }
 
   .flex-shrink {
