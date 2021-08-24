@@ -108,10 +108,11 @@
   }
   
   /* hero styles start */
-  .hero {
+  .hero { 
     background-image: url('../images/unsplash.jpg');
     background-size: cover;
     background-position: center;
+   
     display: flex;
     align-items: flex-start;
     justify-content: center;

@@ -1,5 +1,17 @@
 # Professional Portfolio
 
+  ![badge](https://img.shields.io/github/languages/top/ratalla816/professional-portfolio)
+  <br> 
+  ![badge](https://img.shields.io/github/languages/count/ratalla816/professional-portfolio)
+  <br>
+  ![badge](https://img.shields.io/github/issues/ratalla816/professional-portfolio)
+  <br>
+  ![badge](https://img.shields.io/github/issues-closed/ratalla816/professional-portfolio)
+  <br>
+  ![badge](https://img.shields.io/github/last-commit/ratalla816/professional-portfolio)
+  <br>
+  ![badge](https://img.shields.io/badge/license-MIT-important)
+
 Use HTML and CSS to develop a professional portfolio that satisfies a typical hiring manager's needs. 
 
 ## Requirements
