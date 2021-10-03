@@ -34,7 +34,7 @@ https://ratalla816.github.io/professional-portfolio/
 
 ### Deployed Application Screenshot
 
-![application screenshot](./assets/images/PPpic.JPG)
+![application screenshot](./assets/images/PPpic.PNG)
 
 #### Acknowledgements
 

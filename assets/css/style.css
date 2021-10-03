@@ -140,6 +140,7 @@
   /* hero styles end */
 
   .moi {
+    border:box;
     border-radius: 25px;
   }
 
