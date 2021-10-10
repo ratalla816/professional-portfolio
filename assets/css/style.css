@@ -2,17 +2,19 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Helvetica, Arial, sans-serif !important;
   }
   
   :root {
     --primary-color: #a8babd;
-    --secondary-color: #470303;
+    --secondary-color: #183f7a;
     --tertiary-color: #3b3330;
   }
   
   body {
     color: var(--tertiary-color);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif !important;
+    background-color: whitesmoke;
   }
   
   /* header / navbar styles start */
@@ -26,7 +28,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-image: url('../images/unsplash.jpg');
+    background-image: url('../images/clouds.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -38,13 +40,13 @@
     font-weight: bold;
     margin: 0;
     font-size: 36px;
-    color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #183f7a;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
   }
   
   header a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: #183f7a;
   }
   
   header nav {
@@ -63,7 +65,7 @@
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
   }
   
   header nav ul li a:hover {
@@ -109,7 +111,7 @@
   
   /* hero styles start */
   .hero { 
-    background-image: url('../images/unsplash.jpg');
+    background-image: url('../images/clouds.jpg');
     background-size: cover;
     background-position: center;
    
@@ -118,29 +120,31 @@
     justify-content: center;
     flex-wrap: wrap;
     background-attachment: fixed;
-    background-position: 80%;
+    background-position: 100%;
   }
   
   .hero-excel {
     width: 35%;
     text-align: right;
     margin: 3.5%;
-    color: #a8babd;
+    color: #183f7a;
     font-size: 24px;
     line-height: 1.2;
-    text-shadow: 0 0 5px rgba(0, 0, 0);
+    text-shadow: 0 0 2px rgba(0, 0, 0);
   }
   
   .hero-excel h2 {
     font-style: italic;
     font-size: 55px;
-    color: var(--primary-color);
-    text-shadow: 0 0 5px rgba(0, 0, 0);
+    color: #183f7a;
+    text-shadow: 0 0 2px rgba(0, 0, 0);
   }
   /* hero styles end */
 
-  .moi {
-    border:box;
+  #moi {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     border-radius: 25px;
   }
 
@@ -183,6 +187,14 @@
   }
   /* about me styles end */
   
+  .github {
+    margin-left: 25px;
+  }
+
+  .linkedin {
+    margin-left: 25px;
+  }
+
    /* work styles start */
    .pages {
     width: 100%;
@@ -191,6 +203,7 @@
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
+    /* flex-direction: column; */
     align-items: stretch;
   }
   
@@ -216,6 +229,7 @@
   .page-disc {
     padding: 25px;
     line-height: 1.3;
+    text-align: center;
   }
   
   .page-disc h3 {
@@ -368,6 +382,11 @@
   
   .contact-info a {
     color: var(--primary-color);
+  }
+
+  footer {
+    color: #183f7a;
+    font-weight: bold;
   }
   
   /* REACH OUT STYLES END */

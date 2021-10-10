@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Le portefeuille d'Atalla</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
   </head>
  <!-- _____
      |A .  |
@@ -15,6 +18,7 @@
       מְפַקֵד  -->
   <body>
     <!-- nav tags -->
+    
     <header>
       <h1>
         <a href="#">ROB ATALLA</a>
@@ -42,25 +46,60 @@
     <!-- hero/jumbotron -->
     <section class="hero">
       <div class="hero-excel">
-        <h2>Digital excellence is my middle name...</h2>
+        <h2>Hi there, I'm Rob</h2>
         <p>
-          Okay, it's actually Christopher. But, I am a software engineer skilled in fullstack development technologies and methods such as 
-          HTML, Advanced CSS, Javascript, Bootstrap, jQuery, third-party / server-side APIs, Node.js, Express.js, SQL, NoSQL, ORM, MVC, Computer Science, PWA, React, 
-          and MERN, among others 
+          Working hard, creating value, and building beautiful full stack web applications is my thing. Pretty simple.. 
           <br>
-          - Now that's digital excellence!
+          <br>
+          I have experience building applications with HTML, 
+          <br>
+          CSS, Javascript, third-party / server-side APIs, Nodejs, Expressjs, SQL, MVC, Reactjs, 
+          among many other awesome libraries and frameworks. 
+          <br>
           </p>
       </div>
 
-      <div id="moi" class="border-rounded">
-      <img src="./assets/images/moi.jpg" alt="Rob Atalla looking handsome as usual" />
+      <div id="moi">
+      <img src="./assets/images/moi2.jpg" id="moi" alt="Rob Atalla looking handsome as usual" />
      </div>
     </section>
     <!-- end header -->
 
+
+     <!-- SCROLL -->
+     <!-- <div class="scroll" data-rate = "1" data-direction="vertical"> -->
+
+      <!-- SCROLL -->
+    <div class="scroll" data-rate = ".7" data-direction="vertical">
+      <div class="left-panel position-absolute display:block">
+  <div id="social-section">
+    <a class="social-section" href="#">
+        <div class="github">
+            <img src="./assets/images/githublogo.png" alt="">
+        </div>
+       </a>
+  </div>
+</div>
+</div>
+
+ <!-- SCROLL -->
+ <div class="scroll" data-rate = ".5" data-direction="vertical">
+  <!-- <div class="container right position-relative"> -->
+ <div class="right-panel position-absolute display:block">
+<div id="social-section">
+<a class="right-panel" href="#">
+     <div class="linkedin">
+         <img src="./assets/images/linked.svg" alt="">
+     </div>
+    </a>
+</div>
+</div>
+</div>
+
     <!-- about me starts -->
+   
     <section id="about-Me" class="intro">
-      <div class="flex-row">
+      <div class="flex-row position-relative">
         <h2 class="section-title primary-border">
           About Me
         </h2>
@@ -73,6 +112,8 @@
     </section>
     <!-- about me ends -->
 
+
+    
     <!-- work section starts -->
     <section id="work">
       <div class="flex-row">
@@ -90,7 +131,7 @@
             <h4 class="page-skills">Waterfall project management, HTML / CSS / Javascript / Handlebars / server-side APIs / SQL / Express.js / user authentication / bcrypt / MVC / parallax scrolling</h4>
             <h4>A fullstack social-media application that provides technology bootcamp students with an opportunity to share experiences, even request and provide feedback on code!
               </p>
-              <h4>Utilizes robust front and backend frameworks that provide users with login authentication and the ability to post and view rich content. Also introduces parallax scrolling.
+              <h4>Utilizes robust front and backend frameworks designed to provide users with login authentication and the ability to post and view content.
               </h4>
               </p>
           </div>
@@ -113,35 +154,57 @@
         
       <div class="pages">
         <article class="page flex-grow">
-         <a href="https://ratalla816.github.io/run-buddy/" target="_blank">
-          <img src="./assets/images/runbuddy.JPG" alt="screenshot of run buddy website, runner tying her shoe in the background" />
+         <a href="https://ratalla816-note-taker.herokuapp.com/" target="_blank">
+          <img src="./assets/images/notetakervid.gif" alt="video clip walkthrough of users creating and deleting notes" />
+         </a>
+         <a href="https://ratalla816-note-taker.herokuapp.com/" target="_blank">
+          <img src="./assets/images/notetakervidtoo.gif" alt="video clip walkthrough of users creating and deleting notes" />
          </a>
           <div class="page-disc">
-            <h3 class="page-name">Run Buddy</h3>
-            <h4 class="page-skills">HTML / Advanced CSS</h4>
-            <p>A website that allows runners to sign up for professional coaching on specific areas of improvement. Content design required advanced CSS elements such as pseudo-classes, media-queries, and flexbox.</p>
+            <h3 class="page-name">Note Taker</h3>
+            <h4 class="page-skills">Node.js / Sql / Express.js</h4>
+            <br>
+            <p>An application that allows users to create, save, and delete notes. 
+              <br>
+              The application front end connects to an Express.js back end which stores notes with unique IDs in a JSON file.
+              <br>
+              This allows users to save and delete data in our database without having to rely on a local server.
+              <br>
+              Application is deployed to Heroku</p>
+              <br>
           </div>
         </article>
 
-        <article class="page flex-grow">
-          <a href="https://ratalla816.github.io/seo-refactor/" target="_blank"> 
-          <img src="./assets/images/refactor.JPG" alt="screenshot of horiseon website, people sitting around a table looking like they are talking about something important" />
+        <article class="page flex-shrink">
+          <a href="https://robs-tech-talk-emporium.herokuapp.com/" target="_blank"> 
+          <img src="./assets/images/tech-blog-vid.gif" alt="video clip walkthrough of users logging into a technology blog" />
           </a>
           <div class="page-disc">
-            <h3 class="page-name">SEO-Refactor</h3>
-            <h4 class="page-skills">HTML / CSS</h4>
-            <p>A website promoting search engine optimization, online reputation management, and social media marketing. I was tasked with examining existing HTML and CSS code, then repairing broken code, updating semantic elements to accommodate screen-reader usage, and ensuring logical structure.</p>
+            <h3 class="page-name">MVC Tech Blog</h3>
+            <h4 class="page-skills">HTML / CSS / Javascript / Handlebars / server-side APIs / SQL / Express.js / user authentication / bcrypt / MVC</h4>
+            <p>A CMS-style blog site built using the model-view-controller design pattern. . 
+              <br>
+              Users have the ability to sign up for an account, then they are able to sign in and sign out securely. 
+              <br>
+              Once logged in, users can create blog posts which they can later edit and or delete. 
+              <br>
+              Users are also able to leave comments on their own posts and other users' posts.</p>
             </div>
           </article>
 
         <article class="page flex-grow">
           <a href="https://ratalla816.github.io/fanpage/" target="_blank">
-          <img src="./assets/images/fanpage.JPG" alt="screenshot of talking heads fanpage, david byrne in his big suit" />
+          <img src="./assets/images/fanpagevid.gif" alt="screenshot of talking heads fanpage, david byrne in his big suit" />
           </a>
           <div class="page-disc">
             <h3 class="page-name">Fanpage</h3>
             <h4 class="page-skills">HTML</h4>
-            <p>My first webpage, that pays homage to the classic new-wave rock group, Talking Heads!</p>
+            <br>
+            <br>
+            <p>Big things start small..
+              <br>
+              <br>
+              My very first webpage - that pays homage to the classic new-wave rock band, Talking Heads!</p>
           </div>
         </article>
       </div>
@@ -187,7 +250,7 @@
     <!-- resume end -->
 
       <!-- reach out start -->
-    <section id="reach-out" class="contact">
+     <section id="reach-out" class="contact">
       <div class="flex-row">
         <h2 class="section-title secondary-border">
           Reach Out
@@ -198,10 +261,7 @@
         <div>
           <h3>Rob Atalla</h3>
           <p>
-            Are you interested in taking your digital presence to the next level? 
-            <br/>
-            I would be happy to discuss some ideas!
-          </p>
+         </p>
 
           <address>
             906 W 84th Street <br/>
@@ -235,13 +295,16 @@
     <!-- reach out end -->
 
     <!-- footer -->
-    <footer>
-      <h2> Thanks so much for stopping by! </h2>
-      <div>
-    </div>
+    <footer class="mt-auto">
+      <p>Come see how I do it ⇒ <a href="https://github.com/ratalla816" target="_blank"> <img src="./assets/images/githublogo.png" alt="image of the GitHub mascot, OctoCat" /></p>
+    <!-- </div> -->
     </footer>
     <!-- footer end -->
-  </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js" 
+    integrity="sha512-PNXCBnFH9wShbV+mYnrfo0Gf3iSREgBWmYAoMIfc+Z83vVq3Nu4yxBk6j+BZ40ZIhtW3WlTQdBvW3AYLAnlgpA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <script src="./assets/js/script.js"></script>
+    </body>
 </html>
 
 
