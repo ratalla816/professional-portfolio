@@ -345,7 +345,7 @@
   }
   
   .powr-form-builder {
-    height: 450px;
+    height: 400px;
     transition: height 0.3s ease 0s;
     display: block;
     visibility: visible;
