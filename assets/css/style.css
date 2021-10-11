@@ -349,7 +349,7 @@
     transition: height 0.3s ease 0s;
     display: block;
     visibility: visible;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
   }
 
   .powr-form-builder {
@@ -357,7 +357,7 @@
     transition: height 0.3s ease 0s;
     display: block;
     visibility: visible;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
   }
   
 
