@@ -345,7 +345,7 @@
   }
   
   .formbuilder {
-    height: 400px;
+    height: 350px;
     transition: height 0.3s ease 0s;
     display: block;
     visibility: visible;
