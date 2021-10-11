@@ -349,6 +349,7 @@
     transition: height 0.3s ease 0s;
     display: block;
     visibility: visible;
+    margin-bottom: 5px;
   }
 
   .i-frame {
