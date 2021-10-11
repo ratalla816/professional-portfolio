@@ -352,6 +352,15 @@
     margin-bottom: 5px;
   }
 
+  .powr-form-builder {
+    height: 350px;
+    transition: height 0.3s ease 0s;
+    display: block;
+    visibility: visible;
+    margin-bottom: 5px;
+  }
+  
+
   .i-frame {
     margin-top: 4rem;
     margin-right: 3.7rem;
