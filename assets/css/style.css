@@ -345,7 +345,7 @@
   }
   
   .formbuilder {
-    height: 350px;
+    height: 350px !important;
     transition: height 0.3s ease 0s;
     display: block;
     visibility: visible;
@@ -354,7 +354,7 @@
   }
 
   .powr-form-builder {
-    height: 350px;
+    height: 350px !important;
     transition: height 0.3s ease 0s;
     display: block;
     visibility: visible;
