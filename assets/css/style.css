@@ -187,12 +187,12 @@
   }
   /* about me styles end */
   
-  .github {
-    margin-left: 25px;
+  .left-panel {
+    margin-left: 2rem;
   }
 
-  .linkedin {
-    margin-left: 25px;
+  .right-panel {
+    margin-left: 2rem;
   }
 
    /* work styles start */
