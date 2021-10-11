@@ -344,6 +344,13 @@
     margin: 15px;
   }
   
+  .powr-form-builder {
+    height: 450px;
+    transition: height 0.3s ease 0s;
+    display: block;
+    visibility: visible;
+  }
+
   .i-frame {
     margin-top: 4rem;
     margin-right: 3.7rem;
