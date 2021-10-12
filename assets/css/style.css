@@ -174,7 +174,8 @@
   
   .secondary-border {
     border-color: var(--tertiary-color);
-  }
+    margin-bottom: 150px;
+}
   /* section styles end */
   
   /* about me styles start */
@@ -351,6 +352,7 @@
     visibility: visible;
     margin-bottom: 20px;
     right:0;
+    margin-top: -170px;
   }
 
   .powr-form-builder {
@@ -360,6 +362,7 @@
     visibility: visible;
     margin-bottom: 20px;
     right:0;
+    margin-top: -170px;
   }
   
 
