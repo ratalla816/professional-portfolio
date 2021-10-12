@@ -14,7 +14,7 @@
   body {
     color: var(--tertiary-color);
     font-family: Helvetica, Arial, sans-serif !important;
-    background-color: whitesmoke;
+    background-color: gainsboro !important;
   }
   
   /* header / navbar styles start */
@@ -199,11 +199,11 @@
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
     /* flex-direction: column; */
-    align-items: stretch;
-    flex-wrap: wrap;
+    /* align-items: stretch; */
+    /* flex-wrap: wrap; */
     }
   
   .page {
@@ -216,13 +216,13 @@
   }
 
   
-  .flex-grow {
+  /* .flex-grow {
     flex-grow: .5;
-  }
+  } */
 
-  .flex-shrink {
+  /* .flex-shrink {
     align-content: center;
-  }
+  } */
 
   .page img {
     width: 100%;
@@ -326,17 +326,18 @@
   .contact-info h3 {
     color: var(--primary-color);
     font-size: 32px;
-    text-align: center;
-    margin-top: 62px;
+    /* text-align: center; */
+    /* margin-top: 62px; */
     /* margin-right: 126px; */
 }
 
   .contact-info address {
-    margin: 20px 0;
+    /* margin: 20px 0; */
     line-height: 1.5;
     font-size: 16px;
     text-align: center;
     font-style: normal;
+    color: #a8babd !important;
     /* margin-bottom: 144px; */
     /* margin-top: -126px; */
     /* margin-right: 130px; */
@@ -345,7 +346,7 @@
 .iframe.map {
   height: 400px;
   margin-top: 2rem;
-  margin-right: 8rem;
+  /* margin-right: 8rem; */
   /* right: 0; */
 }
 
@@ -361,7 +362,7 @@
 
   
   .contact {
-    align-items: center;
+    /* align-items: baseline; */
     /* text-align: center; */
     background: var(--secondary-color);
     
@@ -373,26 +374,26 @@
   
   .contact-info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     /* flex-wrap: wrap; */
-    align-items: stretch;
+    align-items: center;
    
   }
   
   .contact-info > * {
     flex: 1;
-    margin: 15px;
+    /* margin: 15px; */
   }
   
  
   
   .contact-info iframe {
-    height: 400px;
-    margin-top: 4rem;
+    /* height: 400px; */
+    margin-top: 2rem;
     /* margin-right: 3.7rem; */
-    right:0;
-    
-  }
+    /* right:0; */
+    /* margin-left: 225px; */
+    }
   
   .contact-info div {
     color: white;
@@ -401,13 +402,15 @@
   .contact-info h3 {
     color: var(--primary-color);
     font-size: 32px;
+    /* margin-left: 297px; */
   }
   
   .contact-info p, .contact-info address {
-    margin: 20px 0;
+    /* margin: 0px 300px; */
     line-height: 1.5;
     font-size: 16px;
     font-style: normal;
+    /* margin-left: -75px; */
   }
   
   /* .contact-form input, .contact-form textarea {
