@@ -142,20 +142,13 @@
   }
   /* hero styles end */
 
-  #moi {
+  /* #moi {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     border-radius: 25px;
-  }
-
-  /* holler style start */  
-  .form-input:focus {
-    background-color: rgba(255,255,255, 1);
-    outline: none;
-  }
-  /* holler style end */
-    
+  } */
+     
   /* section styles start */
   .section-title {
     font-size: 48px;
@@ -221,6 +214,7 @@
     box-sizing: border-box;
     border-radius: 25px;
   }
+
   
   .flex-grow {
     flex-grow: .5;
@@ -317,17 +311,60 @@
   
   /* resume styles end */
   
-   
-  /* reach out styles start */
-  .reach-out {
-    align-items: center;
-    text-align: center;
-  }
+  section {
+    padding: 120px;
+}
 
+
+  /* contact styles start */  
+
+  .contact h2 {
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+  .contact-info h3 {
+    color: var(--primary-color);
+    font-size: 32px;
+    text-align: center;
+    margin-top: 62px;
+    /* margin-right: 126px; */
+}
+
+  .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
+    /* margin-bottom: 144px; */
+    /* margin-top: -126px; */
+    /* margin-right: 130px; */
+}
+
+.iframe.map {
+  height: 400px;
+  margin-top: 2rem;
+  margin-right: 8rem;
+  /* right: 0; */
+}
+
+  /* .form-input:focus {
+    background-color: rgba(255,255,255, 1);
+    outline: none;
+  } */
+
+
+  /* contact styles end */
+
+  /* Holler form styles start */
+
+  
   .contact {
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     background: var(--secondary-color);
+    
   }
   
   .contact h2 {
@@ -337,7 +374,9 @@
   .contact-info {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    align-items: stretch;
+   
   }
   
   .contact-info > * {
@@ -345,38 +384,14 @@
     margin: 15px;
   }
   
-  .formbuilder {
-    height: 350px !important;
-    transition: height 0.3s ease 0s;
-    display: block;
-    visibility: visible;
-    margin-bottom: 20px;
-    right:0;
-    margin-top: -170px;
-  }
-
-  .powr-form-builder {
-    height: 350px !important;
-    transition: height 0.3s ease 0s;
-    display: block;
-    visibility: visible;
-    margin-bottom: 20px;
-    right:0;
-    margin-top: -170px;
-  }
+ 
   
-
-  .i-frame {
-    margin-top: 4rem;
-    margin-right: 3.7rem;
-    right:0;
-  }
-
   .contact-info iframe {
     height: 400px;
     margin-top: 4rem;
-    margin-right: 3.7rem;
+    /* margin-right: 3.7rem; */
     right:0;
+    
   }
   
   .contact-info div {
@@ -395,7 +410,7 @@
     font-style: normal;
   }
   
-  .contact-form input, .contact-form textarea {
+  /* .contact-form input, .contact-form textarea {
     background-color: rgba(255,255,255, 0.75);
     border: 1px solid var(--secondary-color);
     display: block;
@@ -406,7 +421,7 @@
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
-  }
+  } */
   
   .contact-form input:focus, .contact-form textarea:focus {
     background-color: rgba(255,255,255, 1);
@@ -421,7 +436,7 @@
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
-    border-radius: 10px;
+    border-radius: 25px;
   }
   
   .contact-form button:hover {
@@ -438,7 +453,25 @@
     font-weight: bold;
   }
   
-  /* REACH OUT STYLES END */
+  /* ************** contact form styles *************/
+  .contact-form {
+    box-shadow: 0 4px 4px rgb(87 100 126 / 21%);
+    /* background-color: dimgray; */
+    /* max-height: 500px; */
+    width: 50px;
+    border-radius: 25px;
+    margin-bottom: 5px;
+}
+
+.formFooter-heightMask {
+  height: 0px;
+}
+
+  
+
+/* Holler form styles end */
+  
+
   
   /* utilities */
   .text-left {
