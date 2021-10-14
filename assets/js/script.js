@@ -1,3 +1,5 @@
+const SameSite
+
 window.addEventListener ('scroll', function (e) {
 
     const target = document.querySelectorAll('.scroll');
