@@ -1,5 +1,3 @@
-const SameSite
-
 window.addEventListener ('scroll', function (e) {
 
     const target = document.querySelectorAll('.scroll');
@@ -24,16 +22,4 @@ window.addEventListener ('scroll', function (e) {
 
 
 
-// function newWords(string) {
-//     var words = string.match(/(-|^)([^-]?)/g) || [];
-//     words.forEach(function (word, i) {
 
-//         word[i] = word[1].toUpperCase();
-//         return partial.charAt(0).toUpperCase() + partial.slice(1);
-//     })
-//         .join(' ');
-//         console.log(words);
-// }
-
-// var output = newWords('my-name')
-// console.log(output);
