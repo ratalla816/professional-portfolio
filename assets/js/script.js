@@ -1,4 +1,3 @@
-const SameSite
 
 window.addEventListener ('scroll', function (e) {
 
@@ -21,19 +20,3 @@ window.addEventListener ('scroll', function (e) {
           target[index].style.transform = 'translate3d('+posX+'px, '+posY+'px, 0px)'; } 
         }
 });
-
-
-
-// function newWords(string) {
-//     var words = string.match(/(-|^)([^-]?)/g) || [];
-//     words.forEach(function (word, i) {
-
-//         word[i] = word[1].toUpperCase();
-//         return partial.charAt(0).toUpperCase() + partial.slice(1);
-//     })
-//         .join(' ');
-//         console.log(words);
-// }
-
-// var output = newWords('my-name')
-// console.log(output);

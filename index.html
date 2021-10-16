@@ -111,7 +111,7 @@
           <br>
           I'm comfortable assisting the sales team during any step of the sales cycle, and once the deal is closed I'll go back to my desk and code it up for them. 
           <br>
-          Just so you know who you're dealing with, I love CSS, and I think maple syrup on mac n' cheese, and pineapple on pizza is terrific. 
+          My three favorite things are mac n' cheese with maple syrup, pizza with pineapple... and CSS. 
           <br>
           If there is anything else you would like to know please feel free to reach out. My contact details are attached below. 
           <br>
@@ -366,7 +366,7 @@
     <!-- resume end -->
 
       <!-- reach out start -->
-     <section id="contact" class="contact">
+      <section id="contact" class="contact">
       <div class="flex-row">
         <h2 class="section-title secondary-border">
           Contact Information
@@ -391,112 +391,27 @@
        </div>
        <br>
        <br>
-       <br>
-          <!-- SCROLL -->
-          <div class="scroll" data-rate = "1" data-direction="vertical">
-          <container class="contact-form position-relative">
-           <form>             
-    <iframe
-    id="JotFormIFrame-212840713001137"
-    title="Contact Form With Vanilla Theme"
-    onload="window.parent.scrollTo(0,0)"
-    allowtransparency="true"
-    allowfullscreen="true"
-    allow="geolocation; microphone; camera"
-    src="https://form.jotform.com/212840713001137"
-    frameborder="0"
-    style="
-    min-width: 100%;
-    height:539px;
-    border:none;"
-    scrolling="no"
-  >
-  </iframe>
-  <script type="text/javascript">
-    var ifr = document.getElementById("JotFormIFrame-212840713001137");
-    if (ifr) {
-      var src = ifr.src;
-      var iframeParams = [];
-      if (window.location.href && window.location.href.indexOf("?") > -1) {
-        iframeParams = iframeParams.concat(window.location.href.substr(window.location.href.indexOf("?") + 1).split('&'));
-      }
-      if (src && src.indexOf("?") > -1) {
-        iframeParams = iframeParams.concat(src.substr(src.indexOf("?") + 1).split("&"));
-        src = src.substr(0, src.indexOf("?"))
-      }
-      iframeParams.push("isIframeEmbed=1");
-      ifr.src = src + "?" + iframeParams.join('&');
-    }
-    window.handleIFrameMessage = function(e) {
-      if (typeof e.data === 'object') { return; }
-      var args = e.data.split(":");
-      if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
-      if (!iframe) { return; }
-      switch (args[0]) {
-        case "scrollIntoView":
-          iframe.scrollIntoView();
-          break;
-        case "setHeight":
-          iframe.style.height = args[1] + "px";
-          break;
-        case "collapseErrorPage":
-          if (iframe.clientHeight > window.innerHeight) {
-            iframe.style.height = window.innerHeight + "px";
-          }
-          break;
-        case "reloadPage":
-          window.location.reload();
-          break;
-        case "loadScript":
-          if( !window.isPermitted(e.origin, ['jotform.com', 'jotform.pro']) ) { break; }
-          var src = args[1];
-          if (args.length > 3) {
-              src = args[1] + ':' + args[2];
-          }
-          var script = document.createElement('script');
-          script.src = src;
-          script.type = 'text/javascript';
-          document.body.appendChild(script);
-          break;
-        case "exitFullscreen":
-          if      (window.document.exitFullscreen)        window.document.exitFullscreen();
-          else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
-          else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
-          else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
-          else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
-          break;
-      }
-      var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
-      if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
-        var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
-        iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
-      }
-    };
-    window.isPermitted = function(originUrl, whitelisted_domains) {
-      var url = document.createElement('a');
-      url.href = originUrl;
-      var hostname = url.hostname;
-      var result = false;
-      if( typeof hostname !== 'undefined' ) {
-        whitelisted_domains.forEach(function(element) {
-            if( hostname.slice((-1 * element.length - 1)) === '.'.concat(element) ||  hostname === element ) {
-                result = true;
-            }
-        });
-        return result;
-      }
-    };
-    if (window.addEventListener) {
-      window.addEventListener("message", handleIFrameMessage, false);
-    } else if (window.attachEvent) {
-      window.attachEvent("onmessage", handleIFrameMessage);
-    }
-    </script>
-            
-          </div>
-        </form>
-    </container>
-  </div>
+       <!-- <br> -->
+         
+    <div class="form-container">
+      <div class="form">              
+    <a
+    href="javascript:void(
+      window.open(
+        'https://form.jotform.com/212840713001137',
+        'blank',
+        'scrollbars=yes,
+        toolbar=no,
+        width=700,
+        height=500'
+      )
+    )
+  ">
+    Click here to send me a message
+  </a>
+    </div>          
+</div> 
+        
   </section>  
 </div>
     <!-- reach out end -->
@@ -507,8 +422,8 @@
     <!-- </div> -->
     </footer>
     <!-- footer end -->
-    <script src="https://cdn.jotfor.ms//js/vendor/smoothscroll.min.js?v=3.3.28388"></script>
-    <script src="https://cdn.jotfor.ms//js/errorNavigation.js?v=3.3.28388"></script>
+    <!-- <script src="https://cdn.jotfor.ms//js/vendor/smoothscroll.min.js?v=3.3.28388"></script> -->
+    <!-- <script src="https://cdn.jotfor.ms//js/errorNavigation.js?v=3.3.28388"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js" 
     integrity="sha512-PNXCBnFH9wShbV+mYnrfo0Gf3iSREgBWmYAoMIfc+Z83vVq3Nu4yxBk6j+BZ40ZIhtW3WlTQdBvW3AYLAnlgpA==" 
     crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
