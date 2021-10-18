@@ -34,16 +34,12 @@ https://ratalla816.github.io/professional-portfolio/
 
 ### Deployed Application Screenshot
 
-![application screenshot](./assets/images/PPpic.PNG)
+![application screenshot](./assets/images/portfoliovid.gif)
 
 #### Acknowledgements
 
-* background art: "Burning Blue" by Jr Korpa, courtesy of unsplash.com <https://unsplash.com/photos/YXQew2KZjzY>
-
 * background art: "White Clouds During Daytime" by Dominik Schroder, courtesy of unsplash.com <https://unsplash.com/photos/FIKD9t5_5zQ>
-
   
-
 * RUN BUDDY - KU Coding Bootcamp, Module 2 Activity
  © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 
